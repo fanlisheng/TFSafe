@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033AD3F409414443DB842F27 /* TFSafe.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TFSafe.podspec; path = ../TFSafe.podspec; sourceTree = "<group>"; };
+		033AD3F409414443DB842F27 /* TFSafe.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TFSafe.podspec; path = ../TFSafe.podspec; sourceTree = "<group>"; };
 		06E49791DC8E367754CC1B66 /* Pods-TFSafe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFSafe_Tests.release.xcconfig"; path = "Target Support Files/Pods-TFSafe_Tests/Pods-TFSafe_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		237DBD2044A9B035FA30D229 /* Pods-TFSafe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFSafe_Example.debug.xcconfig"; path = "Target Support Files/Pods-TFSafe_Example/Pods-TFSafe_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TFSafe_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFSafe_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F785EAA7DADA2B315B4FF7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8F785EAA7DADA2B315B4FF7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C3501BE94539A2C64435BE57 /* Pods-TFSafe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFSafe_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TFSafe_Tests/Pods-TFSafe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C36D6E1CCA70B43AD8019B92 /* Pods_TFSafe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFSafe_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9804AC8B23D7F2080D3BD92 /* Pods_TFSafe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFSafe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02AEC7C47FF8EBD7486376E /* Pods-TFSafe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFSafe_Example.release.xcconfig"; path = "Target Support Files/Pods-TFSafe_Example/Pods-TFSafe_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FBADD5C85A6A570873AB1C9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FBADD5C85A6A570873AB1C9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				C3501BE94539A2C64435BE57 /* Pods-TFSafe_Tests.debug.xcconfig */,
 				06E49791DC8E367754CC1B66 /* Pods-TFSafe_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
