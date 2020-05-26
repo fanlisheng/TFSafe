@@ -1,0 +1,16 @@
+PODS:
+  - TFSafe (0.1.0)
+
+DEPENDENCIES:
+  - TFSafe (from `../`)
+
+EXTERNAL SOURCES:
+  TFSafe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TFSafe: 35fe410fc52c7f3d540f810782cd5c10c7b3828d
+
+PODFILE CHECKSUM: 0bca91aad66d4155c9fc35ed66af40c053ade063
+
+COCOAPODS: 1.8.4

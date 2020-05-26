@@ -1,0 +1,6 @@
+framework module TFSafe {
+  umbrella header "TFSafe-umbrella.h"
+
+  export *
+  module * { export * }
+}

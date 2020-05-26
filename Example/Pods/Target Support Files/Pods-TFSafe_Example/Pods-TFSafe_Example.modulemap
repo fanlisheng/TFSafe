@@ -1,0 +1,6 @@
+framework module Pods_TFSafe_Example {
+  umbrella header "Pods-TFSafe_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
