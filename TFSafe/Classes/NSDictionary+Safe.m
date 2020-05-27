@@ -13,7 +13,7 @@
 + (void)load{
     [self SwizzlingMethod:@"initWithObjects:forKeys:count:" systemClassString:@"__NSPlaceholderDictionary" toSafeMethodString:@"initWithObjects_st:forKeys:count:" targetClassString:@"NSDictionary"];
 }
--(instancetype)initWithObjects_st:(id *)objects forKeys:(id<NSCopying> *)keys count:(NSUInteger)count {
+-(instancetype)initWithObjects_st:(const id [])objects forKeys:(const id<NSCopying> [])keys count:(NSUInteger)count {
     id safeObjects[count];
     id safeKeys[count];
     NSUInteger j = 0;
@@ -28,12 +28,11 @@
              */
             continue;
         }
-        //每一个value对应一个key，这个是相互对应的，详见demo。
         safeKeys[j] = key;
         safeObjects[j] = obj;
         j++;
     }
-    self = [self initWithObjects_st:objects forKeys:keys count:j];
+    self = [self initWithObjects_st:safeObjects forKeys:safeKeys count:j];
     return self;
 }
 @end

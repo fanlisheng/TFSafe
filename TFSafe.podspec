@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TFSafe'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of TFSafe.'
 
 # This description is used to generate tags and improve search results.
@@ -25,10 +25,10 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '874112968@qq.com' => '874112968@qq.com' }
-  s.source           = { :git => 'https://github.com/874112968@qq.com/TFSafe.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fanlisheng/TFSafe.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'TFSafe/Classes/**/*'
   
